@@ -1,0 +1,31 @@
+@font-face {
+    font-family: myFont; /* set name */
+    src: url(Flavors/Flavors-Regular.ttf); /* url of the font */
+}
+
+h1 {
+    font-family: myFont; /* use font */
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+}
+nav ul{
+    padding-left: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+    border-right: 2px solid grey;
+}
+nav a{
+    color: orange;
+    font-family: "American Typewriter", Helvetica, sans-serif;
+    font-size: 12px;
+}
